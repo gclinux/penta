@@ -651,11 +651,11 @@ class SendMail {
  
  
 /****************************MAIN ***********************************/
-
+$config = include('config.php');
 $msg = "Name:{$_POST['name']} <br>Email:{$_POST['email']}<br>Message:".str_replace(array("\r\n", "\r", "\n"), "<br>", $_POST['message'])."<br>time:".date('Y-m-d H:i:s');
 echo $msg;
 $mail = new SendMail();
-$mail->setServer("smtp.exmail.qq.com", "system@pentamob.com", "", 465, true); //到服务器的SSL连接
+$mail->setServer("smtp.exmail.qq.com", $config['email'], $config['passwd'], 465, true); //到服务器的SSL连接
 //如果不需要到服务器的SSL连接，这样设置服务器：$mail->setServer("smtp.126.com", "XXX@126.com", "XXX");
 
 $mail->setFrom("system@pentamob.com");
