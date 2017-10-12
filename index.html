@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pentamob -- A mobile advertising network embrace the future.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<link rel="shortcut icon" href="favicon.png">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">  
+<link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->    
+<!-- //Custom Theme files -->  
+<!-- web-fonts -->  
+<link href="https://fonts.cat.net/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+<link href="https://fonts.cat.net/css?family=Roboto+Mono:100" rel="stylesheet">
+<link href='https://fonts.cat.net/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- //web-fonts -->
+</head>
+
+<body> 
+	<canvas id=c></canvas>
+	<!-- banner -->
+	<div id="home" class="agileits-banner ">
+		<div class="bnr-agileinfo"> 
+			<!-- navigation -->
+			<div class="top-nav w3-agiletop">
+				<div class="container">
+					<div class="navbar-header w3llogo">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>  
+						<h1><a href="#"><img class="logo" src="images/penta.svg" alt="" ></h1> 
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="w3menu navbar-right">
+							<ul class="nav navbar">
+								<li><a href="#Welcome" class="active">Welcome</a></li>
+								<li><a href="#about">About</a></li> 
+								
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div> 
+						<div class="clearfix"> </div>  
+					</div>
+				</div>	
+			</div>	
+			<!-- //navigation -->
+			<!-- banner-text -->
+			<div class="banner-w3text"> 
+				
+				<div class="container">
+					<ul id="vertical-ticker" >
+						<li id="welcome">_</li>
+					</ul> 
+					<div class="w3ls-bnr-icons social-icon"> 
+<!-- 						<a href="#" class="social-button twit"><i class="fa fa-twitter"></i></a>
+<a href="#" class="social-button fb"><i class="fa fa-facebook"></i></a> 
+<a href="#" class="social-button ggl"><i class="fa fa-google-plus"></i></a> 
+<a href="#" class="social-button drbl"><i class="fa fa-dribbble"></i></a> 
+<a href="#" class="social-button be"><i class="fa fa-behance"></i></a>  -->
+						<a href="#" class="social-button in"><i class="fa fa-linkedin"></i></a>  
+					</div>  
+				</div>  
+			</div> 
+			<!-- //banner-text -->   
+		</div>
+	</div>
+	<!-- //banner --> 
+	<!-- features -->
+	<div id="about" class="features">
+		<div class="container">
+			<h2 class="agileits-title">About Us</h2> 
+			<p class="pagile-text">Pentamob is created by a group of mobile enthusiastics and geeks, aiming to provide professional services to our clients in a smarter and non-traditional way. Pentamob is an AI powered advertising platform, which can learn from the historical data, matching the most appropriate users for your products.</p>
+			<div class="features-row">
+				<div class="col-md-5 features-right">
+					<img src="images/img4.jpg" class="img-responsive" alt=""/>
+				</div>
+				<div class="col-md-7 features-left">
+					<div class="features-grid">
+						<div class="col-xs-3 features-grid-left">
+							<i class="fa fa-heart-o" aria-hidden="true"></i>
+						</div>
+						<div class="col-xs-9 features-grid-right">
+							<h4>User interest model</h4>
+							<p>Information based on user interest preference model to make the mobile advertising more cost effective and efficient.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-grid features-grid-mdl">
+						<div class="col-xs-3 features-grid-left">
+							<i class="fa fa-cogs" aria-hidden="true"></i>
+						</div>
+						<div class="col-xs-9 features-grid-right">
+							<h4>Machine learning</h4>
+							<p>A smart system Powered by TensorFlow to avoid human mistakes, speed up the optimisation process in a more professional way.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-grid">
+						<div class="col-xs-3 features-grid-left">
+							<i class="fa fa-line-chart" aria-hidden="true"></i>
+						</div>
+						<div class="col-xs-9 features-grid-right">
+							<h4>Real time data feedback  </h4>
+							<p>A Real time report dashboard helps clients to monitor the data and cost more precisely.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //features -->
+	<!-- Stats -->
+	<div  class="stats services news-w3layouts"> 
+		<div class="container">    
+			<div class="stats-agileinfo agileits-w3layouts">
+				<div class="col-sm-3 col-xs-6 stats-grid">  
+					<div class='numscroller numscroller-big-bottom'>500K+</div>
+					<h6>Setup/day</h6>
+				</div>
+				<div class="col-sm-3 col-xs-6 stats-grid">  
+					<div class='numscroller numscroller-big-bottom' >1600+</div>
+					<h6>Publishers</h6>
+				</div>
+				<div class="col-sm-3 col-xs-6 stats-grid">  
+					<div class='numscroller numscroller-big-bottom' >8M+</div>
+					<h6>Impressions/day</h6> 
+				</div> 
+				<div class="col-sm-3 col-xs-6 stats-grid">  
+					<div class='numscroller numscroller-big-bottom'>300+</div>
+					<h6>Advertisers</h6>
+				</div> 
+				<div class="clearfix"></div>
+			</div> 
+		</div>
+	</div>
+	<!-- //Stats -->   
+	<!-- services -->
+	<div id="contact" class="contact agileits">
+		<div class="container"> 
+			<h3 class="agileits-title">Contact Us</h3>
+			<div class="contact-agileinfo">
+				<div class="col-md-7 contact-form wthree">
+					<form id="msg-form"  method="post">
+						<input type="text" name="name" placeholder="Name" required="">
+						<input class="email" type="email" name="email" placeholder="Email" required="">
+						<textarea placeholder="Message" name="message" required=""></textarea>
+						<input type="button" id="sent" value="SUBMIT">
+					</form>
+				</div>
+				<div class="col-md-4 contact-right wthree">
+					<div class="contact-text w3-agileits">
+						<h4>GET IN TOUCH :</h4>
+						<p><i class="fa fa-map-marker"></i> Shennan Gardon B 2301, Shennan Rd, Nanshan Dist, Shenzhen CIty </p>
+	<!-- 					<p><i class="fa fa-phone"></i> Telephone : +00 111 222 3333</p>
+	<p><i class="fa fa-fax"></i> FAX : +1 888 888 4444</p> -->
+						<p><i class="fa fa-envelope-o"></i> Email : <a href="mailto:support@pentamob.com">support@pentamob.com</a></p> 
+					</div> 
+				</div> 
+				<div class="clearfix"> </div>	
+			</div>
+		</div>
+	</div>
+	
+	<!-- footer start here --> 
+	<div class="footer-agile">
+		<div class="container">
+			<div class="footer-top-agileinfo"> 
+				<div class="social-icon">
+<!-- 					<a href="#" class="social-button twit"><i class="fa fa-twitter"></i></a>
+<a href="#" class="social-button fb"><i class="fa fa-facebook"></i></a> 
+<a href="#" class="social-button ggl"><i class="fa fa-google-plus"></i></a> 
+<a href="#" class="social-button drbl"><i class="fa fa-dribbble"></i></a> 
+<a href="#" class="social-button be"><i class="fa fa-behance"></i></a>  -->
+					<a href="#" class="social-button in"><i class="fa fa-linkedin"></i></a> 
+				</div>  	
+			</div>
+			<div class="footer-btm-agileinfo">
+				
+				<div class="col-md-12 col-xs-12 footer-grid footer-review">
+					<!-- <h3>Newsletter</h3>
+					<form action="#" method="post">
+						<input type="email" name="Email" placeholder="Your Email" required="">
+						<input type="submit" value="Subscribe"> 
+						<div class="clearfix"> </div>
+					</form>  -->
+					<div class="copy-w3lsright pull-right"> 
+						<p>Copyright &copy; 2017-2018 <a href="www.pentamob.com" >Pentamob Co.,Ltd</a> All rights reserved.</p>
+					</div> 
+				</div> 
+				<div class="clearfix"> </div>
+			</div>   
+		</div>
+	</div> 
+	<!-- //footer end here -->    
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>  
+
+	<script src="js/SmoothScroll.min.js"></script>
+
+	<!-- //js -->
+
+	<!-- start-smooth-scrolling --> 
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+			
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->	 
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up --> 
+	<!-- Progressive-Effects-Animation-JavaScript -->  
+	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+	<!-- //Progressive-Effects-Animation-JavaScript -->  
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+<!-- /*六边形动画*/ -->
+    <script>
+	var w = c.width = $('#home').width()
+	, h = c.height = $('#home').height()
+	, ctx = c.getContext( '2d' )
+	, particles = []
+	, dirs = [
+		{ x: Math.cos( Math.PI * 2 / 6 ), y: Math.sin( Math.PI * 2 / 6 ) },
+		{ x: Math.cos( Math.PI * 2 / 6 * 2 ), y: Math.sin( Math.PI * 2 / 6 * 2 ) },
+		{ x: Math.cos( Math.PI * 2 / 6 * 3 ), y: Math.sin( Math.PI * 2 / 6 * 3 ) },
+		{ x: Math.cos( Math.PI * 2 / 6 * 4 ), y: Math.sin( Math.PI * 2 / 6 * 4 ) },
+		{ x: Math.cos( Math.PI * 2 / 6 * 5 ), y: Math.sin( Math.PI * 2 / 6 * 5 ) },
+		{ x: Math.cos( Math.PI * 2 / 6 * 6 ), y: Math.sin( Math.PI * 2 / 6 * 6 ) },
+	],
+	len = 20;
+
+var tick = 0;
+function anim(){
+	
+	window.requestAnimationFrame( anim );
+	
+	tick += .1;
+	
+	ctx.shadowBlur = 0;
+	ctx.globalCompositeOperation = 'source-over';
+	ctx.fillStyle = 'rgba(0,0,0,.04)';
+	ctx.fillRect( 0, 0, w, h );
+	
+	ctx.shadowBlur = 3;
+	ctx.globalCompositeOperation = 'lighter';
+	
+	if( particles.length < 100 && Math.random() < .5 )
+		particles.push({
+			tick: tick,
+			sx: w/2,
+			sy: h/2,
+			x: 0,
+			y: 0,
+			dir: ( Math.random() * 3 |0 ) * 2,
+			askDir: false,
+			time: 0
+		});
+	
+	particles.map(function( particle ){
+		if( particle.askDir ){
+			particle.dir = Math.random() < .5 ?
+				( particle.dir + 1 ) % 6 :
+				( particle.dir + 5 ) % 6;
+			particle.askDir = false;
+		}
+		
+		++particle.time;
+		
+		var dir = dirs[particle.dir];
+		particle.x += dir.x * 1.5;
+		particle.y += dir.y * 1.5;
+		
+		if( particle.x*particle.x + particle.y*particle.y >= len*len ){
+			particle.sx += dir.x * len;
+			particle.sy += dir.y * len;
+			
+			particle.x = particle.y = 0;
+			particle.askDir = true;
+			
+			if( Math.random() < .05 ){
+				particle.sx = w/2;
+				particle.sy = h/2;
+				particle.dir = ( Math.random() * 3 |0 ) * 2;
+				particle.askDir = false;
+				particle.tick = tick;
+			}
+		}
+		
+		var color = 'hsla(hue,80%,50%,.8)'.replace( 'hue', particle.tick );
+		ctx.shadowColor = ctx.fillStyle = color;
+		var x = particle.sx + particle.x
+			,	y = particle.sy + particle.y
+		ctx.fillRect( x, y, 2.5, 2.5 );
+		
+		for( var i = .5; i < Math.random(); i += .1 ){
+			ctx.fillRect( x + ( Math.random() -.5 ) * 20, y + ( Math.random() - .5 ) * 20, 1.5, 1.5 );
+		}
+	})
+}
+
+ctx.fillStyle = 'rgba(255, 255, 255, 0)';
+ctx.fillRect( 0, 0, w, h );
+anim();
+
+window.addEventListener( 'resize', function(){
+	w = c.width = $('#home').width()
+	h = c.height = $('#home').height()
+	particles.length = 0;
+	ctx.fillStyle = 'rgba(255, 255, 255, 0)';
+	ctx.fillRect( 0, 0, w, h );
+})
+</script>
+
+<script src="js/pentaText.js"></script>
+<script>
+const phrases = [
+  '_',
+  'Hi,sir,',
+  'I am Penta.',
+  'Welcome to Pentamob',
+  'Pentamob is a',
+  'mobile advertising network embrace the future',
+  'Pentamob is devoted to provding you with',
+  'decent traffic and users.',
+  'Penta auto optimization is powered by',
+  'machine learning technology.',
+  'thanks.'
+]
+
+const el = document.querySelector('#welcome')
+const fx = new TextScramble(el)
+
+let counter = 0
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 1500)
+  })
+  counter = (counter + 1) % phrases.length
+}
+
+next()
+</script>
+<!-- ajax msg -->
+<script>
+	 $(document).ready(function() {
+            $('#sent').click(function(){
+            	$('#sent').val('waiting..').prop('disabled',true);
+            	var data = $("#msg-form").serialize();
+            	$.ajax({
+				    type: 'post',
+				    url: 'msg.php',
+				    data: data,
+				    success: function(d) {
+				    	$('#sent').val('Finish.');
+				        alert('Thank for your message. We will check it and reply you soon.')
+				    }
+				});
+            });
+        });
+</script>
+</body>
+</html>
